@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    /* modules */
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    /* language */
+    "target": "ES6",
+    /* js support */
+    "allowJs": true,
+    "checkJs": true,
+    /* type checking */
+    "alwaysStrict": true,
+    "noImplicitAny": false, // hard mode: OFF
+    "noFallthroughCasesInSwitch": true,
+    /* emit */
+    "noEmit": true,
+  },
+}

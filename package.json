@@ -1,0 +1,33 @@
+{
+  "name": "@raw-js/template",
+  "version": "1.0.0",
+  "description": "js template",
+  "author": "manutero.developer@gmail.com",
+  "main": "index.js",
+  "keywords": [],
+  "type": "module",
+  "scripts": {
+    "test": "NODE_ENV=test node --experimental-vm-modules ./node_modules/.bin/jest --verbose",
+    "lint": "eslint .",
+    "types": "tsc --build tsconfig.json",
+    "blue-ball": "npm run lint && npm run types && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuartero/raw-js-template.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manuartero/raw-js-template/issues"
+  },
+  "homepage": "https://github.com/manuartero/raw-js-template#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.4",
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-jest": "^27.2.3",
+    "eslint-plugin-json": "^3.1.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.3"
+  }
+}

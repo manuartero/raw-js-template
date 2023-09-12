@@ -1,2 +1,3 @@
-# raw-js-template
+# `@raw-js/template`
+
 Template for js package
